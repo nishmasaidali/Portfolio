@@ -14,8 +14,8 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #0f172a;
-    color: white;
+    background: #000000;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -34,13 +34,13 @@ nav {
     align-items: center;
 
     padding: 18px 8%;
-    background: #0f172a;
+    background: #000000;
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #2a2a2a;
 }
 
 nav h2 {
-    color: #3b82f6;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -54,7 +54,7 @@ nav ul {
 
 nav li a {
     text-decoration: none;
-    color: white;
+    color: #d1d1d1;
     font-size: 16px;
     font-weight: 500;
 
@@ -62,7 +62,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #3b82f6;
+    color: #ffffff;
 }
 
 
@@ -79,6 +79,8 @@ nav li a:hover {
 
     padding: 80px 8%;
     gap: 60px;
+
+    background: #000000;
 }
 
 .left {
@@ -86,7 +88,7 @@ nav li a:hover {
 }
 
 .left h3 {
-    color: #3b82f6;
+    color: #a3a3a3;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -95,7 +97,7 @@ nav li a:hover {
 }
 
 .left h1 {
-    color: white;
+    color: #ffffff;
     font-size: 64px;
     font-weight: 700;
     line-height: 1.1;
@@ -103,14 +105,14 @@ nav li a:hover {
 }
 
 .left h2 {
-    color: #3b82f6;
+    color: #bdbdbd;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
 .left p {
     max-width: 650px;
-    color: #cbd5e1;
+    color: #b3b3b3;
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -125,10 +127,10 @@ nav li a:hover {
 
     padding: 13px 28px;
 
-    background: #3b82f6;
-    color: white;
+    background: #ffffff;
+    color: #000000;
 
-    border: 2px solid #3b82f6;
+    border: 2px solid #ffffff;
     border-radius: 8px;
 
     font-size: 16px;
@@ -141,7 +143,7 @@ nav li a:hover {
 
 .button:hover {
     background: transparent;
-    color: #3b82f6;
+    color: #ffffff;
     transform: translateY(-3px);
 }
 
@@ -166,9 +168,9 @@ nav li a:hover {
 
     border-radius: 50%;
 
-    border: 5px solid #3b82f6;
+    border: 4px solid #ffffff;
 
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.25);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
 }
 
 
@@ -178,12 +180,14 @@ nav li a:hover {
 
 .About {
     padding: 100px 8%;
-    background: #111c32;
+
+    background: #111111;
+
     text-align: center;
 }
 
 .About h2 {
-    color: #3b82f6;
+    color: #ffffff;
     font-size: 40px;
     margin-bottom: 25px;
 }
@@ -192,13 +196,13 @@ nav li a:hover {
     max-width: 850px;
     margin: auto;
 
-    color: #cbd5e1;
+    color: #b3b3b3;
     font-size: 17px;
     line-height: 1.9;
 }
 
 .About strong {
-    color: white;
+    color: #ffffff;
 }
 
 
@@ -207,8 +211,8 @@ nav li a:hover {
 ========================= */
 
 .skills {
-    background: #0f172a;
-    color: white;
+    background: #000000;
+    color: #ffffff;
 
     padding: 100px 8%;
 
@@ -216,7 +220,7 @@ nav li a:hover {
 }
 
 .skills h2 {
-    color: #3b82f6;
+    color: #ffffff;
     font-size: 40px;
     margin-bottom: 50px;
 }
@@ -229,9 +233,9 @@ nav li a:hover {
 }
 
 .skill-card {
-    background: #ffffff;
+    background: #171717;
 
-    color: #0f172a;
+    color: #ffffff;
 
     width: 300px;
     min-height: 190px;
@@ -240,9 +244,9 @@ nav li a:hover {
 
     border-radius: 12px;
 
-    border: 1px solid transparent;
+    border: 1px solid #333333;
 
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 
     transition: 0.3s ease;
 }
@@ -250,13 +254,13 @@ nav li a:hover {
 .skill-card:hover {
     transform: translateY(-8px);
 
-    border-color: #3b82f6;
+    border-color: #ffffff;
 
-    box-shadow: 0 15px 35px rgba(59, 130, 246, 0.2);
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.08);
 }
 
 .skill-card h3 {
-    color: #3b82f6;
+    color: #ffffff;
 
     font-size: 22px;
 
@@ -264,7 +268,7 @@ nav li a:hover {
 }
 
 .skill-card p {
-    color: #475569;
+    color: #a3a3a3;
 
     line-height: 1.8;
 
@@ -277,9 +281,9 @@ nav li a:hover {
 ========================= */
 
 .contact {
-    background: #111c32;
+    background: #111111;
 
-    color: white;
+    color: #ffffff;
 
     padding: 100px 8%;
 }
@@ -287,7 +291,7 @@ nav li a:hover {
 .contact h2 {
     text-align: center;
 
-    color: #3b82f6;
+    color: #ffffff;
 
     font-size: 40px;
 
@@ -297,7 +301,7 @@ nav li a:hover {
 .contact-text {
     text-align: center;
 
-    color: #cbd5e1;
+    color: #a3a3a3;
 
     max-width: 650px;
 
@@ -323,7 +327,7 @@ nav li a:hover {
 }
 
 .contact-info h3 {
-    color: #3b82f6;
+    color: #ffffff;
 
     font-size: 24px;
 
@@ -331,7 +335,7 @@ nav li a:hover {
 }
 
 .contact-info p {
-    color: #cbd5e1;
+    color: #b3b3b3;
 
     margin: 20px 0;
 
@@ -339,7 +343,7 @@ nav li a:hover {
 }
 
 .contact-info strong {
-    color: white;
+    color: #ffffff;
 }
 
 
@@ -359,13 +363,13 @@ nav li a:hover {
 
     margin-bottom: 18px;
 
-    border: 1px solid #334155;
+    border: 1px solid #333333;
 
     border-radius: 8px;
 
-    background: #0f172a;
+    background: #000000;
 
-    color: white;
+    color: #ffffff;
 
     font-size: 15px;
 
@@ -376,14 +380,14 @@ nav li a:hover {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #94a3b8;
+    color: #737373;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #3b82f6;
+    border-color: #ffffff;
 
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
 }
 
 .contact-form textarea {
@@ -391,11 +395,11 @@ nav li a:hover {
 }
 
 .contact-form button {
-    background: #3b82f6;
+    background: #ffffff;
 
-    color: white;
+    color: #000000;
 
-    border: 2px solid #3b82f6;
+    border: 2px solid #ffffff;
 
     padding: 13px 28px;
 
@@ -413,7 +417,7 @@ nav li a:hover {
 .contact-form button:hover {
     background: transparent;
 
-    color: #3b82f6;
+    color: #ffffff;
 
     transform: translateY(-3px);
 }
